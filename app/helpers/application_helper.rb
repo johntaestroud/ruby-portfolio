@@ -15,5 +15,9 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    StroudViewTool::Renderer.copyright 'Johntae Stroud', 'All rights reserved'
+  end
 end
 

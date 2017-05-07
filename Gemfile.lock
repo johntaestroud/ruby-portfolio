@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/johntaestroud/stroud_view_tool
+  revision: d7a508187bd72e8806ccc31a5087a7a92317f1a5
+  specs:
+    stroud_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,6 +203,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  stroud_view_tool!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
