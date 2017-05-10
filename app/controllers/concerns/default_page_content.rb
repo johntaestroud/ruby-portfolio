@@ -7,7 +7,7 @@ module DefaultPageContent
 
   def set_page_defaults
     @page_title = "Stroud Portfolio | My Portfolio Website"
-    @seo_keywords = "Johntae Stroud Portfolio "
+    @seo_keywords = "Johntae Stroud Portfolio blog "
   end
 end
 
