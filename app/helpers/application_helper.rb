@@ -28,7 +28,7 @@ module ApplicationHelper
       },
       {
         url: about_me_path,
-        title: 'About Me'
+        title: 'Bio'
       },
       {
         url: contact_path,
@@ -45,7 +45,6 @@ module ApplicationHelper
 
     ]
   end
-
 
   def nav_helper style, tag_type
     nav_links = ''
