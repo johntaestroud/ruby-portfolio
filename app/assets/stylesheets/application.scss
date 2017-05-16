@@ -163,7 +163,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 60rem;
   }
 }
 
@@ -245,6 +245,22 @@ body {
     -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
     box-shadow:inset 0px 0px 3px px rgba(0,0,0,1);
 }
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news a {
+  color: brown;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
+
+
 
 
 
