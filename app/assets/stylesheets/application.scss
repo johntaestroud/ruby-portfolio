@@ -140,9 +140,9 @@ body {
     top: 0;
   }
   .mastfoot {
-   position: relative;
+   position: fixed;
    bottom: 0;
-   height: 2em;
+   height: 5em;
    font-size: small;
    width:100%;
   }
@@ -218,7 +218,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('black.png') no-repeat;
   background-size: cover;
 }
 
@@ -252,7 +252,7 @@ body {
 }
 
 .tech-news a {
-  color: brown;
+  color: #0000FF;
 }
 
 .tech-news > .card {

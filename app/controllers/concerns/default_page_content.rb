@@ -6,8 +6,8 @@ module DefaultPageContent
   end
 
   def set_page_defaults
-    @page_title = "Hello World | This is Stroud's world, the portfolio that turns creativity into reality"
-    @seo_keywords = "Johntae Stroud Portfolio blog "
+    @page_title = "Stroulbum | A collection of creativity, innovation, and ideas issued into a world of technology."
+    @seo_keywords = "Johntae Stroud Portfolio blog app ruby"
   end
 end
 
