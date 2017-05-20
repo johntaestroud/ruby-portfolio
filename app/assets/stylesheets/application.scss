@@ -260,19 +260,23 @@ body {
 }
 
 .app-card-container {
-  color: black;
+  color: white;
   tect-align: left
 }
 
 .app-card-container > .card {
+  background-color: black;
   padding: 30px;
 }
 
 .app-card-container a {
-  color: blue;
+  color: cornflowerblue;
 }
 
-
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 
 
 
