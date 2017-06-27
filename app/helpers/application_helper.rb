@@ -48,7 +48,7 @@ module ApplicationHelper
       },
       {
         url: root_path,
-        title: 'Beta App - June'
+        title: 'Beta App - July'
       },
 
     ]
