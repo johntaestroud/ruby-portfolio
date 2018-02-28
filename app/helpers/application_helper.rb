@@ -46,10 +46,6 @@ module ApplicationHelper
         url: tech_news_path,
         title: 'Dev News'
       },
-      {
-        url: root_path,
-        title: 'Beta App - July'
-      },
 
     ]
   end
