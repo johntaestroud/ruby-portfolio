@@ -6,27 +6,27 @@
   <div class="card">
    
 
-  <div class="row">
-    <div class="shadow">
-      <%= image_tag "profile.jpg", width: "300", alt: "profile image" %>
+  # <div class="row">
+  #   <div class="shadow">
+  #     <%= image_tag "profile.jpg", width: "300", alt: "profile image" %>
 
-      <div class="skills">
-      <% @skills.each do |skill| %>
-        <div class="skill">
-          <h4><%= skill.title %></h4>
-            <div class="progress">
-              <div 
-                 class="progress-bar progress-bar-striped bg-info"
-                 role="progressbar"
-                 aria-valuenow="<%= skill.percent_utilized %>"
-                 aria-valuemax="100"
-                 style="width: <%= skill.percent_utilized %>%"
-             ></div>
-            </div>
-         </div>
-      <% end %>
-      </div>
-    </div>
+  #     <div class="skills">
+  #     <% @skills.each do |skill| %>
+  #       <div class="skill">
+  #         <h4><%= skill.title %></h4>
+  #           <div class="progress">
+  #             <div 
+  #                class="progress-bar progress-bar-striped bg-info"
+  #                role="progressbar"
+  #                aria-valuenow="<%= skill.percent_utilized %>"
+  #                aria-valuemax="100"
+  #                style="width: <%= skill.percent_utilized %>%"
+  #            ></div>
+  #           </div>
+  #        </div>
+  #     <% end %>
+  #     </div>
+  #   </div>
 
       <div class="col-md-8">
         <p></p>
@@ -60,18 +60,21 @@
         <p>
          <div class="collapse" id="jobHistory">
             <div class="card card-block">
-              United States Air Force (USAFR): Feb 2012 - Current <span><br></span>
+              United States Air Force (USAFR): Feb 2012 - Feb 2018 <span><br></span>
               Position: Engineering 
             </div>
-            <!--<div class="card card-block">
-              
+            <div class="card card-block">
+              Leidos: Nov 2015 - May 2018 <span><br></span>
+              Position: Software Testing/Engineering (Intern)
             </div>-->
           </div>
 
           <div class="collapse" id="education">
             <div class="card card-block">
               University of Central Florida<span><br></span>
-              Software Development
+              Information Technology<span><br></span>
+              Phi Kappa Phi<span><br></span>
+              
             </div>
             <div class="card card-block">
               Valencia College<span><br></span>
